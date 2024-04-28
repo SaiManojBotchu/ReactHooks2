@@ -1,6 +1,6 @@
 import React from 'react';
-import Parent from './useContext/Parent';
-import Parent1 from './ThemeContext/Parent1';
+import Parent from './01_useContext/Parent';
+import Parent1 from './01_useContext/ThemeContext/Parent1';
 
 function App() {
   return (

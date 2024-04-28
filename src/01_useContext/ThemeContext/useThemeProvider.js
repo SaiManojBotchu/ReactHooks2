@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext } from 'react';
 const ThemeContext = createContext(); // step1
 
 export const useTheme = () => {
-  useContext(ThemeContext); // step3
+  return useContext(ThemeContext); // step3
 }
 
 function ThemeProvider({ children }) {
