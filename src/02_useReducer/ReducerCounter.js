@@ -5,7 +5,7 @@ const ACTIONS = {
   DECREMENT: 'decrement'
 };
 
-// 2. define reducer function
+// 2. Define reducer function
 function reducer(state, action) {
   switch (action.type) {
     case ACTIONS.INCREMENT:
@@ -18,11 +18,11 @@ function reducer(state, action) {
 }
 
 function ReducerCounter() {
-  // 1) Initialize useReducer
+  // 1) Initialize state and dispatch function
   const [state, dispatch] = useReducer(reducer, { count: 0 });
 
   const incrementCount = () => {
-    // 3) call dispatch method
+    // 3) Call dispatch method
     dispatch({ type: ACTIONS.INCREMENT });
   };
 
