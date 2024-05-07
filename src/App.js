@@ -7,22 +7,30 @@ import React from 'react';
 // import One from './03_useRef/One';
 // import Two from './03_useRef/Two';
 // import Three from './03_useRef/Three';
-import NormalComponent from './04_useMemo/NormalComponent';
-import MemoizedComponent from './04_useMemo/MemoizedComponent';
+// import NormalComponent from './04_useMemo/NormalComponent';
+// import MemoizedComponent from './04_useMemo/MemoizedComponent';
+import Component from './05_useCallback/Component';
+import CallbackComponent from './05_useCallback/CallbackComponent';
 
 function App() {
   return (
     <div>
       {/* <Parent />
       <Parent1 /> */}
+
       {/* <Counter /> <br />
       <ReducerCounter /> */}
       {/* <TodoContainer /> */}
+
       {/* <One />
       <Two />
       <Three /> */}
-      <NormalComponent />
-      <MemoizedComponent />
+
+      {/* <NormalComponent />
+      <MemoizedComponent /> */}
+
+      <Component />
+      <CallbackComponent />
     </div>
   );
 }
